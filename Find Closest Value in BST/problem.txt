@@ -1,0 +1,24 @@
+Find Closest Value in BST -> https://www.algoexpert.io/questions/Find%20Closest%20Value%20In%20BST
+
+You are given a BST data structure consisting of BST nodes. Each BST node has an 
+integer value stored in a property called "value" and two children nodes stored 
+in properties called "left" and "right" respectively.
+
+A node is said to be a BST node if and only if it satifies the BST property:
+
+1) its value is strictly greater than the values of every node to its left
+2) its value is less than or equal to the values of every node to its right
+3) both of its children nodes are either BST nodes themselves or None (null) values
+4) you are also given a target integer value
+
+Write a function that finds the closest value to that target value contained 
+in the BST. Assume that there will only be one closest value.
+
+  Sample input:
+        10    ,12
+      /   \
+      5     15
+    / \   /  \
+    2   5 13  22
+
+  Sample output: 13

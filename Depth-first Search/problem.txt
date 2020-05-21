@@ -1,0 +1,20 @@
+Depth-first Search -> https://www.algoexpert.io/questions/Depth-first%20Search
+
+You are given a Node class that has a name and an array of optional children Nodes. 
+When put together, Nodes form a simple-tree-structure. Implement the depthFirstSearch 
+method on the Node class, which:
+
+1) takes in an empty array
+2) traverses the tree using the Depth-first Search approach 
+3) stores all of the Nodes' names in the input array, and returns it
+
+    Sample input:
+          A
+        / | \
+       B  C  D
+      / \   / \
+     E   F G   H
+        / \ \
+       I   J K
+     
+    Sample output: ["A","B","E","F","I","J","C","D","G","K","H"]
